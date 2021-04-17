@@ -24,5 +24,10 @@ namespace Forex_Price_Viewer.Wpf
         {
             InitializeComponent();
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

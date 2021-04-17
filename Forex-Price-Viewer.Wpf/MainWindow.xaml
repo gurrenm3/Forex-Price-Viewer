@@ -6,7 +6,22 @@
         xmlns:local="clr-namespace:Forex_Price_Viewer.Wpf"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+
+    <Grid Background="#FF2C2B65">
+        <Grid>
+            <Label Content="Enter a Date" HorizontalAlignment="Left" Margin="209,157,0,0" VerticalAlignment="Top" Width="107" Foreground="#FFFDF5F5" FontWeight="Bold" FontSize="16" />
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="440,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <Label Content="Enter a Time" HorizontalAlignment="Left" Margin="209,235,0,0" VerticalAlignment="Top" Foreground="White" Width="117" FontWeight="Bold" FontSize="16"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="440,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Forex Price Viewer" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="209,50,219.6,0" VerticalAlignment="Top" VerticalContentAlignment="Center" 
+               Width="365" Height="45" Foreground="#FFEEEDED" FontSize="23" BorderBrush="White" BorderThickness="2"/>
+            <!-- The following line works represents the button -->
+            <Button Content="Search" HorizontalAlignment="Left" Margin="255,318,0,0" VerticalAlignment="Top" 
+                FontFamily="Cambria" FontSize ="20px" FontWeight="Bold" Width="234" Height="31"
+                BorderBrush="Black" BorderThickness="2.5" Background="White" />
+        </Grid>
         
+        
+
     </Grid>
 </Window>
