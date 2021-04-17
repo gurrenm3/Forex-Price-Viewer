@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forex Price Viewer.Wpf", "Forex Price Viewer.Wpf\Forex Price Viewer.Wpf.csproj", "{B6F4FF6A-5E42-4FF9-9E3B-6CB3616D19A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forex Price Viewer.Wpf", "Forex Price Viewer.Wpf\Forex Price Viewer.Wpf.csproj", "{B6F4FF6A-5E42-4FF9-9E3B-6CB3616D19A4}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Forex Price Viewer.Shared", "Forex Price Viewer.Shared\Forex Price Viewer.Shared.shproj", "{4BC5ABE5-E0C4-4560-ADA4-AC230695A4A1}"
 EndProject

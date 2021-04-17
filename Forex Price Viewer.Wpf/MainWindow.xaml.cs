@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Forex_Price_Viewer.Shared;
 
 namespace Forex_Price_Viewer.Wpf
 {
@@ -23,6 +24,8 @@ namespace Forex_Price_Viewer.Wpf
         public MainWindow()
         {
             InitializeComponent();
+            var test = new ForexDownloader();
+            test.Test();
         }
     }
 }
