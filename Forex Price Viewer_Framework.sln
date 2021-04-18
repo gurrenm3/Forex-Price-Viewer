@@ -9,6 +9,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Forex Price Viewer.Shared",
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Forex Price Viewer.Shared\Forex Price Viewer.Shared.projitems*{21efa7a8-395d-43a7-8a08-b7c0f916a8b7}*SharedItemsImports = 4
 		Forex Price Viewer.Shared\Forex Price Viewer.Shared.projitems*{4bc5abe5-e0c4-4560-ada4-ac230695a4a1}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
