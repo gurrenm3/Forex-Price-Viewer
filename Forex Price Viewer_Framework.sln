@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forex-Price-Viewer.Wpf", "Forex-Price-Viewer.Wpf\Forex-Price-Viewer.Wpf.csproj", "{21EFA7A8-395D-43A7-8A08-B7C0F916A8B7}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Forex Price Viewer.Shared", "Forex Price Viewer.Shared\Forex Price Viewer.Shared.shproj", "{4BC5ABE5-E0C4-4560-ADA4-AC230695A4A1}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Forex Price Viewer.Shared\Forex Price Viewer.Shared.projitems*{4bc5abe5-e0c4-4560-ada4-ac230695a4a1}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
