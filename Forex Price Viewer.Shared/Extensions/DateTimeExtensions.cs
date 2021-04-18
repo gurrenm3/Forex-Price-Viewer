@@ -12,5 +12,10 @@ namespace Forex_Price_Viewer.Extensions
                 $"{dt.Month.ToString().PadLeft(2, '0')}" +
                 $"{dt.Year.ToString().Substring(2, 2)}";
         }
+
+        public static string ToZipFileName(this DateTime dt)
+        {
+            return $"{dt.Month}-{dt.Day}-{dt.Year}.zip";
+        }
     }
 }
